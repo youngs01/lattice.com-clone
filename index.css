@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#gradient-canvas {
+    width: 100%;
+    height: 1000px;
+    z-index: 0; 
+    position: absolute;
+    --gradient-color-1:  #238272;
+    --gradient-color-2: #238272;
+    --gradient-color-3:  #3EE896;
+    --gradient-color-4: #80BBB1;
+  }
+
+  .navbar-logo svg{
+    width: 150px;
+  }
+
+  .navbar-nav-ul{
+display: flex;
+align-items: center;
+gap:10px;
+color: white;
+
+  }
+
+.navbar-btn{
+font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #183435;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    width: 100%3;
+}
+
+.navbar-btn:hover{
+color: #027776;
+background-color: #07aaa713;
+
+}
+
+.navbar-btn:hover i{
+    color: #027775da;
+}
+
+.navbar-btn i{
+    font-size: 10px;
+    color: rgb(116, 115, 115);
+}
+
+
+.no-chevron::after {
+    display: none !important;
+  }
+  
+
+  
+a{
+    text-decoration: none;
+}
+
+.navbar-signin-btn{
+    color: #183435;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.navbar-signin-btn:hover{
+color: #027776;
+background-color: #17b1ac0e;
+}
+
+.navbar-demo-btn{
+    padding: 10px 30px;
+    color: #cdface;
+    border-radius: 9px;
+    background:linear-gradient(to bottom ,teal,#027776);
+    box-shadow: inset 0 10px 16px -10px rgba(255,255,255,.06), 0 8px 8px rgba(0,31,31,.06), 0 4px 4px rgba(0,31,31,.06), 0 2px 2px rgba(0,31,31,.06), 0 0 1px rgba(0,31,31,.32), inset 0 -2px 1px rgba(0,31,31,.24), inset 0 1px 1px rgba(205,250,206,.08);
+}
+
+
+
+.modal-platform-navbar a{
+    padding: 10px 1px;
+    color: #183435;
+    font-weight:500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.modal-platform-navbar a svg{
+    width: 30px;
+    background-color: #E6FAF9;
+    border-radius: 7px;
+    padding: 5px 5px;
+    color: #82C5C5;
+}
+
+.modal-platform-navbar a:hover{
+    background-color: #F5F7F7;
+}
+
+.modal-platform-navbar a:hover .svg-modal-plateform{
+    background-color: #17B1AD;
+    color: white;
+}
+
+.coming-soon-banner-modal-platform{
+    font-size: 13px;
+    padding: 3px 5px;
+    border-radius: 50px;
+    border: 2px solid #57E0CE;
+    color: #068283;
+}
+
+/* button .platform-activate-modal.active .modal-platform-navbar {
+    display: block;
+} */
+
+/* Initially hide the navbar */
+/* Initially hide the modal navbar */
+.modal-platform-navbar {
+    display: none;
+}
+
+/* Display the navbar when it has the 'active' class */
+.modal-platform-navbar.active {
+    display: block;
+}
+
+
+
+.modal-platform-navbar{
+    position: absolute;
+    top: 60px;
+    right: 0;
+height:420px;
+align-items: center;
+
+}
+
+.plateform-feature-modal{
+    background-color: #F5F7F7;
+}
+
+.plateform-feature-heading{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #389D9C;
+}
+
+.plateform-hris-heading{
+    font-size: 14px;
+    transition: all ease 0.4s;
+}
+
+.plateform-hris-heading i{
+    font-size: 10px;
+
+}
+
+.plateform-hris-heading:hover{
+    color: #027776;
+    gap: 7px !important;
+}
+
+.plateform-hris-heading:hover i{
+    color: #027775b0;
+}
+
+.plateform-hris-para{
+    font-size: 13.5px;
+    line-height: 140%;
+}
+
+.navbar-signin-responsive{
+    color: #cdface;
+    background-color:#027776;
+padding: 10px 30px;
+font-size: 19px;
+font-weight: 600;
+text-align: center;
+border-radius: 12px;
+    width: 100%;
+display: none;
+}
+
+.hero-blanket{
+    backdrop-filter: blur(40px);
+    height: 1000px;
+/* height: 100%; */
+}
+
+.hero-heading{
+    font-size: 5rem;
+    letter-spacing: 0.5px;
+    color: white;
+    font-weight: 700;
+    line-height: 75px;
+    width: fit-content;
+
+}
+
+.hero-para{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: white;
+
+
+}
+
+.hero-div-g2 .fa-star{
+color: #EAEE7D ;
+}
+
+.hero-vertical-border{
+    width: px ;
+    height: 30px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    
+    .hero-heading{
+        font-size: 50px;
+    
+        line-height: 60px;
+    }
+
+    .hero-para{
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:770px){
+
+    .navbar-signin-btn{
+        display: none;
+    }
+
+    .navbar-signin-responsive{
+        display: block;
+    }
+    
+    .hero-heading{
+        line-height: 50px;
+    }
+
+}
+
+@media screen and (max-width:500px){
+
+    .coming-soon-banner-modal-platform{
+        font-size: 9px;
+    }
+
+    .navbar-demo-btn{
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+
+    .navbar-logo svg{
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width:1400px) {
+    
+    .navbar-collapse{
+        padding-top:20px;
+    }
+
+     .nav-item{
+
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-btn{
+        width: 100%;
+
+
+        display: flex;
+        align-items: center;
+    }
+
+    .modal-platform-navbar{
+    top: 120px;
+    }
+
+    
+
+}
+
+
+

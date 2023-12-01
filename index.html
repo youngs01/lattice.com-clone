@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link href="https://assets-global.website-files.com/64ad6f1aef87635bd23449f1/64ae60ed522e5f8f6cf71ba2_favicon-lattice-32.svg" rel="shortcut icon" type="image/x-icon" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0a7c965840.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>People Management Platform | Performance and Engagement Software | Lattice</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xxl bg-white sticky-top " id="myNavbar">
+        <div class="container  position-relative">
+            <div class="">
+                <a class="navbar-brand navbar-logo" href="#"><svg width="100%" viewBox="0 0 112 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.61939 14.78L3.67377 9.8111C2.83341 8.96678 1.47091 8.96678 0.630274 9.8111C-0.210091 10.6554 -0.210091 12.0243 0.630274 12.8689L7.09764 19.3668C7.93801 20.2111 9.30078 20.2111 10.1411 19.3668L16.2284 13.2506L13.1852 10.1927L8.61939 14.78Z"
+                            fill="#16B8A2"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M27.2608 5.2251L17.7507 14.78L8.23957 5.22402C7.39894 4.37943 6.03644 4.37943 5.19607 5.22402C4.3557 6.06835 4.3557 7.43727 5.19607 8.28186L16.229 19.3667C17.0693 20.2111 18.4318 20.2111 19.2725 19.3667L30.3043 8.28294C31.1446 7.43835 31.1446 6.06943 30.3043 5.2251C29.4636 4.38078 28.1011 4.38078 27.2608 5.2251Z"
+                            fill="#FFB41F"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M34.8697 12.87L28.4034 19.3667C27.563 20.211 26.2005 20.211 25.3602 19.3667L9.7615 3.69455C8.92113 2.85023 8.92113 1.48131 9.7615 0.636986C10.6021 -0.207609 11.9646 -0.207609 12.805 0.636986L26.8817 14.78L31.8262 9.81212C32.6668 8.9678 34.0293 8.9678 34.8697 9.81212C35.7101 10.6567 35.7101 12.0256 34.8697 12.87Z"
+                            fill="#F56358"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M25.7386 0.638004C24.8982 -0.20632 23.5357 -0.20632 22.6951 0.638004L13.185 10.1929L16.2285 13.2507L25.7386 3.69584C26.5789 2.85125 26.5789 1.48233 25.7386 0.638004Z"
+                            fill="#16B8A2"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M46.6669 2.08545H44V17.7864H53.7717V15.4152H46.6669V2.08545ZM59.5435 6.80641C61.165 6.80641 62.2531 7.46863 62.8505 8.28037L62.9786 7.02003H65.2828V17.7864H62.9786L62.8505 16.526C62.2531 17.3378 61.165 18 59.5435 18C56.6206 18 54.6364 15.6288 54.6364 12.4032C54.6364 9.15621 56.6206 6.80641 59.5435 6.80641ZM60.0983 9.07076C58.4341 9.07076 57.2393 10.3738 57.2393 12.4032C57.2393 14.4326 58.4341 15.7356 60.0983 15.7356C61.3784 15.7356 62.1465 15.0521 62.7225 14.1335V10.6729C62.1465 9.75434 61.3784 9.07076 60.0983 9.07076ZM71.7374 3.40988H69.1771V7.02003H67.1503V9.19893H69.1771V13.984C69.1771 16.5901 70.7346 18 73.1882 18C74.255 18 75.0444 17.7009 75.5778 17.3591L74.8951 15.3511C74.575 15.5434 74.1056 15.6929 73.4229 15.6929C72.4201 15.6929 71.7374 15.0521 71.7374 13.9626V9.19893H74.9804V7.02003H71.7374V3.40988ZM80.5603 3.40988H78V7.02003H75.9731V9.19893H78V13.984C78 16.5901 79.5575 18 82.0111 18C83.0778 18 83.8673 17.7009 84.4006 17.3591L83.7179 15.3511C83.3979 15.5434 82.9285 15.6929 82.2458 15.6929C81.243 15.6929 80.5603 15.0521 80.5603 13.9626V9.19893H83.8033V7.02003H80.5603V3.40988ZM88.679 7.02003H86.1188V17.7864H88.679V7.02003ZM87.3989 2C86.5028 2 85.8201 2.66222 85.8201 3.58077C85.8201 4.49933 86.5028 5.16155 87.3989 5.16155C88.3163 5.16155 88.9991 4.49933 88.9991 3.58077C88.9991 2.66222 88.3163 2 87.3989 2ZM96.4138 6.80641C93.1068 6.80641 90.9092 9.15621 90.9092 12.4032C90.9092 15.6288 93.1281 18 96.4351 18C98.3767 18 99.8488 17.1242 100.809 15.6288L98.974 14.1976C98.462 15.0521 97.6299 15.757 96.4565 15.757C94.5576 15.757 93.5122 14.283 93.5122 12.4032C93.5122 10.502 94.5149 9.0494 96.4351 9.0494C97.6299 9.0494 98.4193 9.73298 98.91 10.5875L100.766 9.17757C99.8061 7.68224 98.3767 6.80641 96.4138 6.80641ZM107.071 6.80641C110.378 6.80641 112 9.28438 112 12.2964V13.1936H104.405C104.469 14.9025 105.493 15.8425 107.285 15.8425C108.544 15.8425 109.461 15.2871 109.952 14.6035L111.723 16.0561C110.656 17.3378 109.248 18 107.264 18C103.935 18 101.802 15.6502 101.802 12.4246C101.802 9.17757 103.978 6.80641 107.071 6.80641ZM107.029 8.85714C105.514 8.85714 104.49 9.86115 104.405 11.3565H109.482C109.418 9.88251 108.565 8.85714 107.029 8.85714Z"
+                            fill="currentcolor"></path>
+                    </svg></a>
+            </div>
+
+            <div class=" d-flex align-items-center d-block d-xxl-none gap-3">
+                <div class=" d-flex align-items-end gap-3 ">
+                    <a href="#" class="navbar-signin-btn">Sign in</a>
+                    <a href="#" class="navbar-demo-btn">Request a demo</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav navbar-nav-ul px-3 w-100 d-flex align-items-start">
+
+                    <li class="nav-item  ">
+                        <button type="button" class="navbar-btn nav-link plateform-activate-modal">
+                            Platform <i class="fa-solid fa-chevron-down"></i>
+                            <div class="modal modal-platform-navbar" id="exampleModal">
+                                <div class="container h-100">
+                                    <div class="row h-100">
+                                        <div class="col-8 col-lg-5 h-100 rounded-5 bg-white ">
+                                            <div class="row justify-content-center  h-100">
+
+                                                <div
+                                                    class="col-123 col-lg-6  justify-content-center h-100  pb-3 px-4 pt-3">
+                                                    <div class="d-flex h-100 bg-white flex-column gap-1">
+                                                        <a href="#"><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M12 7.12c-5.38 0-9.94 2.19-9.94 4.89 0 2.1 2.85 3.9 6.6 4.58m4.09.28c5.03-.19 9.19-2.3 9.19-4.86 0-1.94-2.42-3.6-5.69-4.4">
+                                                                </path>
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="m10.63 5.08 2.12 2.12-2.12 2.12m3.75 9.6-2.12-2.12 2.12-2.12">
+                                                                </path>
+                                                            </svg> Perfomance</a>
+                                                        <a href="#"><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <circle cx="5.34" cy="5.34" r="5.34"
+                                                                    stroke="currentcolor" stroke-width="1.25"
+                                                                    transform="matrix(-1 0 0 1 14.98 9.26)">
+                                                                </circle>
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-width="1.25"
+                                                                    d="M9.12 11.17a5 5 0 0 0 1.28 2c1 1 2.47 1.35 2.47 1.35m3.54-.32a5.34 5.34 0 1 0-5.93-8.63s-.6.58-.92 1.22c-.32.64-.4.95-.4.95">
+                                                                </path>
+                                                            </svg>Compensation</a>
+                                                        <a href="#"><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <rect width="16.87" height="13.87" x="3.56" y="5.06"
+                                                                    stroke="currentcolor" stroke-width="1.25" rx="2">
+                                                                </rect>
+                                                                <path fill="currentcolor"
+                                                                    d="M6.56 12.37a.63.63 0 0 1 1.25 0v3.5c0 .35-.28.63-.63.63a.63.63 0 0 1-.62-.63v-3.5Zm6.38 0c0-.34.27-.62.62-.62s.63.28.63.62v3.5c0 .35-.28.63-.63.63a.63.63 0 0 1-.62-.63v-3.5Z">
+                                                                </path>
+                                                                <rect width="1.25" height="8.25" x="9.75" y="8.25"
+                                                                    fill="currentcolor" rx=".63"></rect>
+                                                                <rect width="1.25" height="8.25" x="16.18" y="8.25"
+                                                                    fill="currentcolor" rx=".63"></rect>
+                                                            </svg>Analytics</a>
+                                                        <a href="#"><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M2.32 14.26a9.94 9.94 0 1 0 0-4.51"></path>
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M16.95 9.75a5.44 5.44 0 1 0 0 4.5"></path>
+                                                                <circle cx="12" cy="12" r="1.5" stroke="currentcolor"
+                                                                    stroke-width="1.3"></circle>
+                                                            </svg>OKRs & Goals</a>
+                                                        <a href="#"><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M11.83 8.96v5.3c0 1.3 1.33 2.12 2.25 1.21A7.7 7.7 0 0 0 16.33 10c0-2.96-1.64-5.09-4.03-6.28-.3-.15-.65-.15-.94 0-2.4 1.2-4.03 3.32-4.03 6.28a7.7 7.7 0 0 0 1.81 5">
+                                                                </path>
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M11.83 14.73c0 4.33-4.3 4.62-6.67 3.88a6 6 0 0 1-3.24-2.46.12.12 0 0 1 .03-.16v0a4.5 4.5 0 0 1 5.98.5l.15.16m7.5 0 .15-.16a4.5 4.5 0 0 1 5.97-.5v0c.05.04.07.1.03.16a6 6 0 0 1-3.24 2.46c-1.2.38-2.88.49-4.26-.05a4.1 4.1 0 0 1-.76-.39">
+                                                                </path>
+                                                            </svg>Grow</a>
+                                                        <a href="#"><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-width="1.25"
+                                                                    d="M8.27 15.77 11 18.5c.56.56 1.46.56 2.02 0l6.17-6.17a4.24 4.24 0 0 0-6-6L12 7.5l-1.18-1.18a4.24 4.24 0 1 0-6 6">
+                                                                </path>
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M7.63 18.08v-3h3"></path>
+                                                            </svg>Engagement</a>
+                                                        <a href="#" class=""><svg class="svg-modal-plateform"
+                                                                xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                                fill="none" viewBox="0 0 24 24">
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M3.5 13.5V7a4 4 0 0 1 4-4h9a4 4 0 0 1 4 4v.5m-17 6-2-2m2 2 2-2">
+                                                                </path>
+                                                                <path stroke="currentcolor" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.25"
+                                                                    d="M20.5 11.5V16a4 4 0 0 1-4 4H7.86c-.75 0-1.36-.61-1.36-1.36v-.97C6.5 16.19 7.7 15 9.17 15v0c.73 0 1.33-.6 1.33-1.33v-.14c0-.34-.12-.67-.34-.94L9.67 12a3.03 3.03 0 0 1 .06-3.95v0a3.03 3.03 0 0 1 4.54 0v0c1 1.12 1.02 2.8.06 3.95l-.6.72a1 1 0 0 0-.23.64v.14m7-2-2 2m2-2 2 2">
+                                                                </path>
+                                                            </svg>HRIS <span
+                                                                class="coming-soon-banner-modal-platform">COMMING
+                                                                SOON</span></a>
+
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6 d-none d-lg-block overflow-none p-0 ">
+                                                    <div
+                                                        class="h-100 w-100 d-flex flex-column gap-2 plateform-feature-modal text-start rounded-5 px-3 py-4">
+                                                        <h6 class="px-2 m0 plateform-feature-heading">FEATURED</h6>
+                                                        <a href="#" class="p-0 m-0">
+                                                            <div class="d-flex flex-column gap-3 ">
+                                                                <img src="plateform-navbar-btn-modal-img.webp" alt=""
+                                                                    class="w-100 rounded-5  ">
+                                                                <div class="d-flex flex-column">
+                                                                    <h6
+                                                                        class="d-flex align-items-center gap-1 plateform-hris-heading m-0 p-0">
+                                                                        HRIS overview <i
+                                                                            class="fa-solid fa-chevron-right"></i></h6>
+                                                                    <p class="m-0 plateform-hris-para">The HR
+                                                                        information system built to work seamlessly with
+                                                                        Lattice’s trusted Talent Suite.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+
+
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle navbar-btn no-chevron " href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Solutions<i class="fa-solid fa-chevron-down"></i>
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle navbar-btn no-chevron " href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Why Lattice<i class="fa-solid fa-chevron-down"></i>
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle navbar-btn no-chevron " href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources<i class="fa-solid fa-chevron-down"></i>
+                        </a>
+
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link navbar-btn" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-btn no-chevron " href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Company <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+
+                    </li>
+                </ul>
+
+                <div class=" d-flex align-items-center pt-5">
+                    <a href="#" class="navbar-signin-responsive">Sign in</a>
+                </div>
+
+            </div>
+            <div class=" d-flex d-none d-xxl-block align-items-end gap-3 ">
+                <a href="#" class="navbar-signin-btn">Sign in</a>
+                <a href="#" class="navbar-demo-btn">Request a demo</a>
+            </div>
+            </button>
+        </div>
+
+    </nav>
+    <div class="container-fluid p-0 position-relative pb-5">
+        <canvas id="gradient-canvas"></canvas>
+        <div class="w-100 hero-blanket">
+            <div class="container py-5 position-relative ">
+                <div class="row py-0 py-lg-5">
+                    <div class="col-12 col-md-7">
+                    <div class="d-flex flex-column gap-3">
+                        <h1 class="hero-heading ">
+                            HR software that <span class="d-none d-md-block"></span>  drives performance
+                        </h1>
+                        <p class="hero-para ">Lattice is the people management platform <span class="d-none d-lg-block"></span> that helps you make the most of your talent.</p>
+                    
+                    </div>  
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="d-flex align-items-center gap-3">
+
+                            <div class="d-flex align-items-center gap-2 hero-div-g2">
+                                <img src="G2-img.svg" alt="">
+                                <div class="position-relative d-flex flex-column ">
+                                    <h2 class="m-0 text-white p-0 d-flex align-items-center gap-1">4.7 <i class="fa-solid fa-star fs-6"></i></h2>
+                                    <p class="m-0 text-white">on G2</p>
+                                </div>
+                            </div>
+                        
+                            <div class="hero-vertical-border"></div>
+
+                            <div class="d-flex align-items-center gap-2 hero-div-g2">
+                                <img src="capterra-img.svg" alt="">
+                                <div class="position-relative d-flex flex-column ">
+                                    <h2 class="m-0 text-white p-0 d-flex align-items-center gap-1">4.7 <i class="fa-solid fa-star fs-6"></i></h2>
+                                    <p class="m-0 text-white">on G2</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="canva.js"></script>
+<script src="index.js"></script>
+
+</html>
