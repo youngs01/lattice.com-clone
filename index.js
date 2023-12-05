@@ -9,4 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-  
+
+$(document).ready(function() {
+  $('.card-parent').hover(
+      function() {
+          $(this).find('.videoPlay')[0].play();
+      },
+      function() {
+          $(this).find('.videoPlay')[0].pause();
+      }
+  );
+});
