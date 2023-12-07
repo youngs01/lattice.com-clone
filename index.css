@@ -497,11 +497,12 @@ transition: all ease 0.5s;
 
 .marquee2{
     height: fit-content;
+    overflow: hidden;
 }
   
 .marquee-content {
     display: flex;
-    animation: scrolling 70s linear infinite;
+    animation: scrolling 60s linear infinite;
   }
   
   .marquee-item {
@@ -529,11 +530,29 @@ transition: all ease 0.5s;
     }
   }
   
+/* end of second marquee */
 
 
+/* .marquee,
+.marquee2{
+    display: none !important;
+} */
+
+.responsive-hr-card{
+    box-shadow: 0 24px 24px 0 rgb(0 31 31 / 0%), 0 16px 16px 0 rgb(0 31 31 / 3%), 0 8px 8px 0 rgb(0 31 31 / 6%), 0 4px 4px 0 rgb(0 31 31 / 6%), 0 2px 2px 0 rgb(0 31 31 / 6%), 0 0 1px 0 rgb(0 31 31 / 32%);
+    border-radius: 12px;
 
 
+}
 
+.responsive-hr-card-img{
+    max-width: 150px;
+
+}
+
+.marquee-stop-div{
+    display: none;
+}
 
 
 
@@ -559,6 +578,23 @@ transition: all ease 0.5s;
 
 }
 
+@media screen and (max-width:430px) {
+    .responsive-hr-card h2{
+        font-size: 20px ;
+    }
+
+    .responsive-hr-card p{
+        font-size: 15px;
+    }
+
+    .responsive-hr-card div{
+        gap: 15px !important;
+    }
+
+    .responsive-hr-card-img{
+        max-width: 100px;
+    }
+}
 
 
 
@@ -607,6 +643,18 @@ transition: all ease 0.5s;
 
     .hero-inspection-div {
         justify-content: start !important;
+    }
+
+    .marquee{
+        display: none !important;
+    }
+  
+    .marquee2{
+        display: none;
+    }
+
+    .marquee-stop-div{
+        display: block;
     }
 
 }
