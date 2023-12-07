@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 #gradient-canvas {
@@ -356,6 +357,194 @@ letter-spacing: 0.5px;
     gap: 60px;
 }
 
+.heading-usecases{
+    color: #006666;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    border: 3px solid #7AE6BC;
+    padding: 7px 18px;
+    border-radius: 100px;
+}
+
+.hr-heading{
+    font-size: 55px;
+    letter-spacing: 0.6px;
+}
+
+
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+.marquee {
+    /* display: none; */
+    overflow: hidden;
+}
+
+.marquee-slide, .marquee {
+  &.is-active {
+    display: block;
+  }
+}
+
+.marquee-slide-card-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin: 0 auto;
+    height: auto;
+  
+  &.marquee-active {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    margin: 0 auto;
+    height: 240px;
+    
+    .marquee-slide-card {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .2s ease;
+    }
+    
+    .marquee-slide-card-wrap-inner {
+      display: flex;
+      position:absolute;
+      top:0px;
+      left:0px;
+      overflow:hidden;
+      white-space: nowrap;
+      flex-wrap: nowrap;
+      animation: marquee 100s linear infinite;
+    }
+    
+    .marquee-slide-card-wrap-inner:hover {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.marquee-slide-card {
+    border-radius: 12px;
+    opacity: 0.75;
+    width: 500px;
+    height: 200px;
+    margin: 0 22px 30px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-right: 0px;
+    box-shadow: 0 24px 24px 0 rgb(0 31 31 / 0%), 0 16px 16px 0 rgb(0 31 31 / 3%), 0 8px 8px 0 rgb(0 31 31 / 6%), 0 4px 4px 0 rgb(0 31 31 / 6%), 0 2px 2px 0 rgb(0 31 31 / 6%), 0 0 1px 0 rgb(0 31 31 / 32%);
+transition: all ease 0.5s;
+    position: relative;
+    background: white;
+}
+
+.marquee-slide-card:hover{
+    box-shadow: 0 24px 24px 0 rgb(0 31 31 / 8%), 0 16px 16px 0 rgb(0 31 31 / 8%), 0 8px 8px 0 rgb(0 31 31 / 8%), 0 4px 4px 0 rgb(0 31 31 / 8%), 0 2px 2px 0 rgb(0 31 31 / 8%), 0 0 1px 0 rgb(0 31 31 / 32%);
+}
+
+.marquee-slide-card-wrap-inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hr-card-heading{
+    color: black;
+    font-size: 30px;
+}
+
+.hr-card-img{
+    max-width: 170px;
+}
+
+.hr-card-lgimg{
+    max-height: 10px;
+}
+
+.hr-card-para{
+    color: #006666;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+transition: all ease 0.5s;
+}
+
+.hr-card-para i{
+    font-size: 10px;
+
+}
+
+.marquee-slide-card:hover .hr-card-para{
+    gap: 8px;
+}
+
+
+
+/*second marquee starts here */
+
+
+
+.marquee2{
+    height: fit-content;
+}
+  
+.marquee-content {
+    display: flex;
+    animation: scrolling 70s linear infinite;
+  }
+  
+  .marquee-item {
+    
+  
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 100%;
+
+  }
+  
+  /* Pause the animation on hover */
+  .marquee-content:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes scrolling {
+    0% {
+      transform: translateX(-144vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:400px) {
@@ -390,6 +579,10 @@ letter-spacing: 0.5px;
     .hero-card-grow,
     .hero-card-engagement{
         margin-top: 0 !important;
+    }
+
+    .hr-heading{
+        font-size: 50px;
     }
 
 
@@ -435,14 +628,18 @@ letter-spacing: 0.5px;
         margin: 0;
     }
 
+    .hr-heading{
+        font-size: 35px;
+    }
+
 }
 
-@media screen and (max-width:1200px) {
+/* @media screen and (max-width:1200px) {
     .logo-bar{
         
     }
     
-}
+} */
 
 
 @media screen and (max-width:1250px) {

@@ -20,3 +20,39 @@ $(document).ready(function() {
       }
   );
 });
+
+// start of infinite marquee
+
+function marqueeToggle() {
+  const marqueeWrap = document.querySelector(".marquee-slide-card-wrap");
+  const marqueeCards = document.querySelectorAll(".marquee-slide-card");
+  const secondSet = $('.marquee-slide-card--second-set');
+  var totalCardsWidth = 0;  //we will add each card width together
+
+  marqueeCards.forEach(function (card, index) {
+    const cardWidth = 500 + 44; //width + margin (need to make this dyamic)
+    totalCardsWidth = totalCardsWidth + cardWidth;
+    return totalCardsWidth;
+  });
+
+  if(totalCardsWidth >= window.innerWidth * 1) {
+    marqueeWrap.classList.add('marquee-active');
+    secondSet.css('display', 'flex');
+  } else {
+    marqueeWrap.classList.remove('marquee-active');
+    secondSet.css('display', 'none');
+  }
+}
+marqueeToggle();
+
+$(window).on('resize', function() {
+  marqueeToggle();
+});
+
+
+
+
+
+// end of infinite marquee
+
+
