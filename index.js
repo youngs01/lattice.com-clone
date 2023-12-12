@@ -53,6 +53,7 @@ $(window).on('resize', function() {
 
 
 
+
 // end of infinite marquee
 
 
