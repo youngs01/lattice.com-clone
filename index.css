@@ -621,7 +621,7 @@ a {
     color: #8D9999;
 }
 
-.resource-card1-costumer-img {}
+/* .resource-card1-costumer-img {} */
 
 p,
 h3 {
@@ -639,7 +639,7 @@ h3 {
 .dd {
     position: relative;
     width: 100%;
- 
+
     height: 100%;
 
     overflow: hidden;
@@ -656,65 +656,65 @@ h3 {
     /* z-index: -1; */
 }
 
-.bussiness-result-heading{
+.bussiness-result-heading {
     font-size: 4rem;
     padding-top: 2rem;
 }
 
-.bussiness-result-btn{
-  color: rgb(163, 241, 167);
-  background:linear-gradient(to top, black, #006666);
-  width: fit-content;
-  padding: 15px 40px;
-  border-radius: 12px;
+.bussiness-result-btn {
+    color: #B3E6C0;
+    background: linear-gradient(to top, black, #006666);
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 12px;
 }
 
-.bussiness-result-img-div{
-width: 100%;
-height: 100%;
-box-shadow: 0 24px 24px 0 rgb(0 31 31 / 0%),
-0 16px 16px 0 rgb(0 31 31 / 10%),
-0 8px 8px 0 rgb(0 31 31 / 10%),
-0 4px 4px 0 rgb(0 31 31 / 10%),
-0 2px 2px 0 rgb(0 31 31 / 6%),
-0 0 1px 0 rgb(0 31 31 / 32%);
-border-radius: 20px;
-transition: all ease 0.4s;
-display: flex;
-align-items: center;
-justify-content: center;
-max-width: 700px;
+.bussiness-result-img-div {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 24px 24px 0 rgb(0 31 31 / 0%),
+        0 16px 16px 0 rgb(0 31 31 / 10%),
+        0 8px 8px 0 rgb(0 31 31 / 10%),
+        0 4px 4px 0 rgb(0 31 31 / 10%),
+        0 2px 2px 0 rgb(0 31 31 / 6%),
+        0 0 1px 0 rgb(0 31 31 / 32%);
+    border-radius: 20px;
+    transition: all ease 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
 }
 
-.bussiness-result-img-div:hover{
-    
-box-shadow: 0 24px 24px 0 rgb(0 31 31 / 8%),
- 0 16px 16px 0 rgb(0 31 31 / 10%),
-  0 8px 8px 0 rgb(0 31 31 / 22%),
-   0 4px 4px 0 rgb(0 31 31 / 22%),
-    0 2px 2px 0 rgb(0 31 31 / 22%),
-     0 0 1px 0 rgb(0 31 31 / 102%);
+.bussiness-result-img-div:hover {
 
-}
-
-.bussiness-result-img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-border-radius: 20px;
-}
-
-.bussiness-img-playbtn-div{
-background-color: black;
-width: 170px;
-height: 70px;
-border-radius: 100px;
-opacity: 0.9;
-position: absolute;
+    box-shadow: 0 24px 24px 0 rgb(0 31 31 / 8%),
+        0 16px 16px 0 rgb(0 31 31 / 10%),
+        0 8px 8px 0 rgb(0 31 31 / 22%),
+        0 4px 4px 0 rgb(0 31 31 / 22%),
+        0 2px 2px 0 rgb(0 31 31 / 22%),
+        0 0 1px 0 rgb(0 31 31 / 102%);
 
 }
 
-.playbtn-btn{
+.bussiness-result-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.bussiness-img-playbtn-div {
+    background-color: black;
+    width: 170px;
+    height: 70px;
+    border-radius: 100px;
+    opacity: 0.9;
+    position: absolute;
+
+}
+
+.playbtn-btn {
     color: #006666;
     background-color: #F8FFFB;
     padding: 15px 17px;
@@ -725,20 +725,88 @@ position: absolute;
     border-radius: 50px;
     opacity: 1;
     transition: all ease 0.5s;
-    
-
-}
-
-.bussiness-result-img-div:hover .playbtn-btn{
-transform: scale(1.2);
 
 
 }
 
-.bussiness-img-playbtn-para{
+.bussiness-result-img-div:hover .playbtn-btn {
+    transform: scale(1.2);
+}
+
+.bussiness-img-playbtn-para {
     font-size: 14px;
     font-weight: 600;
-    color: #b3f1da;
+    color: #B3E6C0;
+}
+
+
+
+
+
+
+.footer-btn-heading {
+    color: #068283;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-btn {
+    color: rgb(64, 63, 63);
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  gap: 5px;
+  transition: all ease 0.4s;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.footer-btn i{
+    font-size: 10px;
+opacity: 0;
+transition: all ease 0.4s;
+}
+
+.footer-btn:hover{
+
+color: #45A2A2;
+}
+
+.footer-btn:hover i{
+    opacity: 1;
+}
+
+.footer-btn-comingsoon-banner{
+    color: #068283;
+    border: 2px solid #17B1AD;
+    font-size: 10px;
+    padding: 7px 10px;
+    border-radius: 100px;
+    text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.footer-media-logo{
+    font-size: 23px;
+    color: black;
+    transition: all ease 0.3s;
+}
+
+.footer-media-logo:hover{
+    color: #006666;
+}
+
+.footer-language-active{
+    color: #1C8E8F;
+    background-color: #F4F7F6;
+    padding: 10px;
+}
+
+.fooetr-language-active i{
+font-size: 10px !important;
 }
 
 
@@ -752,27 +820,21 @@ transform: scale(1.2);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:450px) {
+    .footer-btn{
+        font-size: 13px;
+    }
+}
 
 
 @media screen and (max-width:1200px) {
-    
+
     .bg-gradient {
         position: absolute;
         width: 100%;
         max-width: 1000px;
-        top: 0 ;
-  
+        top: 0;
+
         left: 0;
         opacity: 0.65;
         object-fit: cover;
@@ -783,45 +845,49 @@ transform: scale(1.2);
 }
 
 @media screen and (max-width:575px) {
-    .bussiness-result-heading{
+    .bussiness-result-heading {
         font-size: 40px !important;
     }
 
-    .bussiness-img-playbtn-div{
+    .bussiness-img-playbtn-div {
         background-color: black;
         width: 120px;
         height: 50px;
         border-radius: 100px;
         opacity: 0.9;
         position: absolute;
-        
-        }
-        
-        .bussiness-img-playbtn-para{
-            font-size: 10px;
-        }
 
-        .playbtn-btn{
-            padding: 9px 11px;
-            font-size: 10px;
-        }
+    }
+
+    .bussiness-img-playbtn-para {
+        font-size: 10px;
+    }
+
+    .playbtn-btn {
+        padding: 9px 11px;
+        font-size: 10px;
+    }
 
 }
 
 @media screen and (max-width:405px) {
-    .bussiness-result-heading{
+    .bussiness-result-heading {
         font-size: 34px !important;
     }
 
-    .bussiness-result-btn{
+    .bussiness-result-btn {
         padding: 10px 25px;
         font-size: 12px;
+    }
+
+    .footer-btn-comingsoon-banner{
+        padding: 5px 5px;
     }
 }
 
 @media screen and (max-width:473px) {
 
-    .bussiness-result-btn{
+    .bussiness-result-btn {
         padding: 10px 30px;
         font-size: 14px;
     }
@@ -1033,7 +1099,7 @@ transform: scale(1.2);
         font-size: 14px;
     }
 
-    .bussiness-result-heading{
+    .bussiness-result-heading {
         font-size: 50px;
     }
 
