@@ -11,15 +11,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 $(document).ready(function() {
-  $('.card-parent').hover(
-      function() {
+  var screenWidth = window.innerWidth;
+
+  function handleVideoBehavior() {
+    if (screenWidth <= 770) {
+      $('.videoPlay').each(function() {
+        this.play();
+      });
+    } else {
+      $('.card-parent').hover(
+        function() {
           $(this).find('.videoPlay')[0].play();
-      },
-      function() {
+        },
+        function() {
           $(this).find('.videoPlay')[0].pause();
-      }
-  );
+        }
+      );
+    }
+  }
+
+  handleVideoBehavior(); // Initial handling based on screen size
+
+  $(window).resize(function() {
+    screenWidth = window.innerWidth;
+    handleVideoBehavior(); // Adjust behavior on window resize
+  });
 });
+
 
 // start of infinite marquee
 
