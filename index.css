@@ -88,7 +88,7 @@ a {
     padding: 10px 30px;
     color: #cdface;
     border-radius: 9px;
-    background: linear-gradient(to bottom, teal, #027776);
+    background: linear-gradient(to top,black , #006666);
     box-shadow: inset 0 10px 16px -10px rgba(255, 255, 255, .06), 0 8px 8px rgba(0, 31, 31, .06), 0 4px 4px rgba(0, 31, 31, .06), 0 2px 2px rgba(0, 31, 31, .06), 0 0 1px rgba(0, 31, 31, .32), inset 0 -2px 1px rgba(0, 31, 31, .24), inset 0 1px 1px rgba(205, 250, 206, .08);
 }
 
@@ -757,56 +757,57 @@ h3 {
     font-size: 16px;
     display: flex;
     align-items: center;
-  gap: 5px;
-  transition: all ease 0.4s;
-  text-transform: capitalize;
-  position: relative;
+    gap: 5px;
+    transition: all ease 0.4s;
+    text-transform: capitalize;
+    position: relative;
 }
 
-.footer-btn i{
+.footer-btn i {
     font-size: 10px;
-opacity: 0;
-transition: all ease 0.4s;
+    opacity: 0;
+    transition: all ease 0.4s;
 }
 
-.footer-btn:hover{
+.footer-btn:hover {
 
-color: #45A2A2;
+    color: #45A2A2;
 }
 
-.footer-btn:hover i{
+.footer-btn:hover i {
     opacity: 1;
 }
 
-.footer-btn-comingsoon-banner{
+.footer-btn-comingsoon-banner {
     color: #068283;
     border: 2px solid #17B1AD;
     font-size: 10px;
     padding: 7px 10px;
     border-radius: 100px;
     text-align: center;
-  text-transform: uppercase;
-  width: fit-content;
+    text-transform: uppercase;
+    width: fit-content;
 }
 
-.footer-media-logo{
+.footer-media-logo {
     font-size: 23px;
     color: black;
     transition: all ease 0.3s;
 }
 
-.footer-media-logo:hover{
+.footer-media-logo:hover {
     color: #006666;
+    padding-bottom: 10px;
 }
 
-.footer-language-active{
+.footer-language-active {
     color: #1C8E8F;
     background-color: #F4F7F6;
     padding: 10px;
 }
 
-.fooetr-language-active i{
-font-size: 10px !important;
+.fooetr-language-active i {
+    font-size: 10px !important;
 }
 
 
@@ -821,7 +822,7 @@ font-size: 10px !important;
 
 
 @media screen and (max-width:450px) {
-    .footer-btn{
+    .footer-btn {
         font-size: 13px;
     }
 }
@@ -880,7 +881,7 @@ font-size: 10px !important;
         font-size: 12px;
     }
 
-    .footer-btn-comingsoon-banner{
+    .footer-btn-comingsoon-banner {
         padding: 5px 5px;
     }
 }
@@ -1030,6 +1031,13 @@ font-size: 10px !important;
         font-size: 35px;
     }
 
+    .footer-btn-heading{
+        font-size: 16px;
+    }
+
+    .footer-btn{
+        font-size: 14px;
+    }
 }
 
 /* @media screen and (max-width:1200px) {
