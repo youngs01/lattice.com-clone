@@ -11,8 +11,8 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0a7c965840.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="css/style.scss"> -->
     <title>People Management Platform | Performance and Engagement Software | Lattice</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
@@ -23,24 +23,9 @@
     <nav class="navbar navbar-expand-xxl bg-white sticky-top " id="myNavbar">
         <div class="container  position-relative">
             <div class="">
-                <a class="navbar-brand navbar-logo" href="#"><svg width="100%" viewBox="0 0 112 20" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M8.61939 14.78L3.67377 9.8111C2.83341 8.96678 1.47091 8.96678 0.630274 9.8111C-0.210091 10.6554 -0.210091 12.0243 0.630274 12.8689L7.09764 19.3668C7.93801 20.2111 9.30078 20.2111 10.1411 19.3668L16.2284 13.2506L13.1852 10.1927L8.61939 14.78Z"
-                            fill="#16B8A2"></path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M27.2608 5.2251L17.7507 14.78L8.23957 5.22402C7.39894 4.37943 6.03644 4.37943 5.19607 5.22402C4.3557 6.06835 4.3557 7.43727 5.19607 8.28186L16.229 19.3667C17.0693 20.2111 18.4318 20.2111 19.2725 19.3667L30.3043 8.28294C31.1446 7.43835 31.1446 6.06943 30.3043 5.2251C29.4636 4.38078 28.1011 4.38078 27.2608 5.2251Z"
-                            fill="#FFB41F"></path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M34.8697 12.87L28.4034 19.3667C27.563 20.211 26.2005 20.211 25.3602 19.3667L9.7615 3.69455C8.92113 2.85023 8.92113 1.48131 9.7615 0.636986C10.6021 -0.207609 11.9646 -0.207609 12.805 0.636986L26.8817 14.78L31.8262 9.81212C32.6668 8.9678 34.0293 8.9678 34.8697 9.81212C35.7101 10.6567 35.7101 12.0256 34.8697 12.87Z"
-                            fill="#F56358"></path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M25.7386 0.638004C24.8982 -0.20632 23.5357 -0.20632 22.6951 0.638004L13.185 10.1929L16.2285 13.2507L25.7386 3.69584C26.5789 2.85125 26.5789 1.48233 25.7386 0.638004Z"
-                            fill="#16B8A2"></path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M46.6669 2.08545H44V17.7864H53.7717V15.4152H46.6669V2.08545ZM59.5435 6.80641C61.165 6.80641 62.2531 7.46863 62.8505 8.28037L62.9786 7.02003H65.2828V17.7864H62.9786L62.8505 16.526C62.2531 17.3378 61.165 18 59.5435 18C56.6206 18 54.6364 15.6288 54.6364 12.4032C54.6364 9.15621 56.6206 6.80641 59.5435 6.80641ZM60.0983 9.07076C58.4341 9.07076 57.2393 10.3738 57.2393 12.4032C57.2393 14.4326 58.4341 15.7356 60.0983 15.7356C61.3784 15.7356 62.1465 15.0521 62.7225 14.1335V10.6729C62.1465 9.75434 61.3784 9.07076 60.0983 9.07076ZM71.7374 3.40988H69.1771V7.02003H67.1503V9.19893H69.1771V13.984C69.1771 16.5901 70.7346 18 73.1882 18C74.255 18 75.0444 17.7009 75.5778 17.3591L74.8951 15.3511C74.575 15.5434 74.1056 15.6929 73.4229 15.6929C72.4201 15.6929 71.7374 15.0521 71.7374 13.9626V9.19893H74.9804V7.02003H71.7374V3.40988ZM80.5603 3.40988H78V7.02003H75.9731V9.19893H78V13.984C78 16.5901 79.5575 18 82.0111 18C83.0778 18 83.8673 17.7009 84.4006 17.3591L83.7179 15.3511C83.3979 15.5434 82.9285 15.6929 82.2458 15.6929C81.243 15.6929 80.5603 15.0521 80.5603 13.9626V9.19893H83.8033V7.02003H80.5603V3.40988ZM88.679 7.02003H86.1188V17.7864H88.679V7.02003ZM87.3989 2C86.5028 2 85.8201 2.66222 85.8201 3.58077C85.8201 4.49933 86.5028 5.16155 87.3989 5.16155C88.3163 5.16155 88.9991 4.49933 88.9991 3.58077C88.9991 2.66222 88.3163 2 87.3989 2ZM96.4138 6.80641C93.1068 6.80641 90.9092 9.15621 90.9092 12.4032C90.9092 15.6288 93.1281 18 96.4351 18C98.3767 18 99.8488 17.1242 100.809 15.6288L98.974 14.1976C98.462 15.0521 97.6299 15.757 96.4565 15.757C94.5576 15.757 93.5122 14.283 93.5122 12.4032C93.5122 10.502 94.5149 9.0494 96.4351 9.0494C97.6299 9.0494 98.4193 9.73298 98.91 10.5875L100.766 9.17757C99.8061 7.68224 98.3767 6.80641 96.4138 6.80641ZM107.071 6.80641C110.378 6.80641 112 9.28438 112 12.2964V13.1936H104.405C104.469 14.9025 105.493 15.8425 107.285 15.8425C108.544 15.8425 109.461 15.2871 109.952 14.6035L111.723 16.0561C110.656 17.3378 109.248 18 107.264 18C103.935 18 101.802 15.6502 101.802 12.4246C101.802 9.17757 103.978 6.80641 107.071 6.80641ZM107.029 8.85714C105.514 8.85714 104.49 9.86115 104.405 11.3565H109.482C109.418 9.88251 108.565 8.85714 107.029 8.85714Z"
-                            fill="currentcolor"></path>
-                    </svg></a>
+                <a class="navbar-brand navbar-logo" href="#">
+                    <img src="svg/logo.svg" alt="logo">
+                </a>
             </div>
 
             <div class=" d-flex align-items-center d-block d-xxl-none gap-3">
@@ -170,7 +155,7 @@
                                                         <h6 class="px-2 m0 plateform-feature-heading">FEATURED</h6>
                                                         <a href="#" class="p-0 m-0">
                                                             <div class="d-flex flex-column gap-3 ">
-                                                                <img src="plateform-navbar-btn-modal-img.webp" alt=""
+                                                                <img src="img/plateform-navbar-btn-modal-img.webp" alt=""
                                                                     class="w-100 rounded-5  ">
                                                                 <div class="d-flex flex-column">
                                                                     <h6
@@ -264,7 +249,7 @@
                             class="d-flex align-items-center hero-inspection-div justify-content-center h-100 w-100 gap-3">
 
                             <div class="d-flex align-items-center gap-2 hero-div-g2">
-                                <img src="G2-img.svg" alt="">
+                                <img src="svg/G2-img.svg" alt="">
                                 <div class="position-relative d-flex flex-column ">
                                     <h2 class="m-0 text-white p-0 d-flex align-items-center gap-1">4.7 <i
                                             class="fa-solid fa-star fs-6"></i></h2>
@@ -275,7 +260,7 @@
                             <div class="hero-vertical-border"></div>
 
                             <div class="d-flex align-items-center gap-2 hero-div-g2">
-                                <img src="capterra-img.svg" alt="">
+                                <img src="svg/capterra-img.svg" alt="">
                                 <div class="position-relative d-flex flex-column ">
                                     <h2 class="m-0 text-white p-0 d-flex align-items-center gap-1">4.7 <i
                                             class="fa-solid fa-star fs-6"></i></h2>
@@ -294,7 +279,7 @@
 
                             <div class="position-relative">
                                 <video autoplay muted loop class="video-content">
-                                    <source src="video-btn.mp1.mp4" type="video/mp4">
+                                    <source src="videos/video-btn.mp1.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 <div class="btn-blanket"></div>
@@ -320,7 +305,7 @@
                                 </div>
                                 <div class=" w-100 h-100 ">
                                     <video muted loop class="hero-card-perfomance-vid videoPlay">
-                                        <source src="card1.mp4">
+                                        <source src="videos/card1.mp4">
                                     </video>
                                 </div>
                             </div>
@@ -339,7 +324,7 @@
                                 </div>
                                 <div class=" w-100 h-100 ">
                                     <video muted loop class="hero-card-perfomance-vid videoPlay">
-                                        <source src="card-2-compensation.mp4" class="hahha">
+                                        <source src="videos/card-2-compensation.mp4" class="hahha">
                                     </video>
                                 </div>
                             </div>
@@ -358,7 +343,7 @@
                                 </div>
                                 <div class=" w-100 h-100 ">
                                     <video muted loop class="hero-card-perfomance-vid videoPlay">
-                                        <source src="card-2-analytics.mp4">
+                                        <source src="videos/card-2-analytics.mp4">
                                     </video>
                                 </div>
                             </div>
@@ -377,7 +362,7 @@
                                 </div>
                                 <div class=" w-100 h-100 ">
                                     <video muted loop class="hero-card-perfomance-vid videoPlay">
-                                        <source src="card-4-okrs.mp4">
+                                        <source src="videos/card-4-okrs.mp4">
                                     </video>
                                 </div>
                             </div>
@@ -395,7 +380,7 @@
                                 </div>
                                 <div class=" w-100 h-100 ">
                                     <video muted loop class="hero-card-perfomance-vid videoPlay">
-                                        <source src="card-5-grow.mp4" class="hahha">
+                                        <source src="videos/card-5-grow.mp4" class="hahha">
                                     </video>
                                 </div>
                             </div>
@@ -415,7 +400,7 @@
                                 </div>
                                 <div class="w-100 h-100">
                                     <video muted loop class="hero-card-perfomance-vid videoPlay" id="video">
-                                        <source src="card-6-engagement.mp4" type="video/mp4">
+                                        <source src="videos/card-6-engagement.mp4" type="video/mp4">
                                     </video>
                                 </div>
                             </div>
@@ -447,14 +432,14 @@
 
                     <div class="d-flex align-items-center logo-bar ">
 
-                        <img src="slack-logo.svg" alt="">
-                        <img src="robinhood-logo.svg" alt="">
-                        <img src="gusto-logo.svg" alt="">
-                        <img src="inari-logo.svg" alt="">
-                        <img src="nous-logo.svg" alt="">
-                        <img src="allbirds-logo.svg" alt="">
-                        <img src="monzo-logo.svg" alt="">
-                        <img src="hellofresh-logo.svg" alt="">
+                        <img src="svg/slack-logo.svg" alt="">
+                        <img src="svg/robinhood-logo.svg" alt="">
+                        <img src="svg/gusto-logo.svg" alt="">
+                        <img src="svg/inari-logo.svg" alt="">
+                        <img src="svg/nous-logo.svg" alt="">
+                        <img src="svg/allbirds-logo.svg" alt="">
+                        <img src="svg/monzo-logo.svg" alt="">
+                        <img src="svg/hellofresh-logo.svg" alt="">
 
                     </div>
 
@@ -463,43 +448,46 @@
                     <div class="row justify-content-center d-flex text-center">
                         <div class="col-12">
                             <div class="d-flex align-items-center justify-content-center gap-5">
-                                <img src="slack-logo.svg" alt="">
-                                <img src="robinhood-logo.svg" alt="">
-                                <img src="gusto-logo.svg" alt="">
-                                <img src="inari-logo.svg" alt="">
-                                <img src="nous-logo.svg" alt="">
-                                <img src="allbirds-logo.svg" alt="">
-                                <img src="monzo-logo.svg" alt="">
-                                <img src="hellofresh-logo.svg" alt="">
-                                <img src="slack-logo.svg" alt="">
-                                <img src="robinhood-logo.svg" alt="">
-                                <img src="gusto-logo.svg" alt="">
-                                <img src="inari-logo.svg" alt="">
-                                <img src="nous-logo.svg" alt="">
-                                <img src="allbirds-logo.svg" alt="">
-                                <img src="monzo-logo.svg" alt="">
-                                <img src="hellofresh-logo.svg" alt=""> <img src="slack-logo.svg" alt="">
-                                <img src="robinhood-logo.svg" alt="">
-                                <img src="gusto-logo.svg" alt="">
-                                <img src="inari-logo.svg" alt="">
-                                <img src="nous-logo.svg" alt="">
-                                <img src="allbirds-logo.svg" alt="">
-                                <img src="monzo-logo.svg" alt="">
-                                <img src="hellofresh-logo.svg" alt=""> <img src="slack-logo.svg" alt="">
-                                <img src="robinhood-logo.svg" alt="">
-                                <img src="gusto-logo.svg" alt="">
-                                <img src="inari-logo.svg" alt="">
-                                <img src="nous-logo.svg" alt="">
-                                <img src="allbirds-logo.svg" alt="">
-                                <img src="monzo-logo.svg" alt="">
-                                <img src="hellofresh-logo.svg" alt=""> <img src="slack-logo.svg" alt="">
-                                <img src="robinhood-logo.svg" alt="">
-                                <img src="gusto-logo.svg" alt="">
-                                <img src="inari-logo.svg" alt="">
-                                <img src="nous-logo.svg" alt="">
-                                <img src="allbirds-logo.svg" alt="">
-                                <img src="monzo-logo.svg" alt="">
-                                <img src="hellofresh-logo.svg" alt="">
+                                <img src="svg/slack-logo.svg" alt="">
+                                <img src="svg/robinhood-logo.svg" alt="">
+                                <img src="svg/gusto-logo.svg" alt="">
+                                <img src="svg/inari-logo.svg" alt="">
+                                <img src="svg/nous-logo.svg" alt="">
+                                <img src="svg/allbirds-logo.svg" alt="">
+                                <img src="svg/monzo-logo.svg" alt="">
+                                <img src="svg/hellofresh-logo.svg" alt="">
+                                <img src="svg/slack-logo.svg" alt="">
+                                <img src="svg/robinhood-logo.svg" alt="">
+                                <img src="svg/gusto-logo.svg" alt="">
+                                <img src="svg/inari-logo.svg" alt="">
+                                <img src="svg/nous-logo.svg" alt="">
+                                <img src="svg/allbirds-logo.svg" alt="">
+                                <img src="svg/monzo-logo.svg" alt="">
+                                <img src="svg/hellofresh-logo.svg" alt=""> 
+                                <img src="svg/slack-logo.svg" alt="">
+                                <img src="svg/robinhood-logo.svg" alt="">
+                                <img src="svg/gusto-logo.svg" alt="">
+                                <img src="svg/inari-logo.svg" alt="">
+                                <img src="svg/nous-logo.svg" alt="">
+                                <img src="svg/allbirds-logo.svg" alt="">
+                                <img src="svg/monzo-logo.svg" alt="">
+                                <img src="svg/hellofresh-logo.svg" alt="">
+                                <img src="svg/slack-logo.svg" alt="">
+                                <img src="svg/robinhood-logo.svg" alt="">
+                                <img src="svg/gusto-logo.svg" alt="">
+                                <img src="svg/inari-logo.svg" alt="">
+                                <img src="svg/nous-logo.svg" alt="">
+                                <img src="svg/allbirds-logo.svg" alt="">
+                                <img src="svg/monzo-logo.svg" alt="">
+                                <img src="svg/hellofresh-logo.svg" alt="">
+                                <img src="svg/slack-logo.svg" alt="">
+                                <img src="svg/robinhood-logo.svg" alt="">
+                                <img src="svg/gusto-logo.svg" alt="">
+                                <img src="svg/inari-logo.svg" alt="">
+                                <img src="svg/nous-logo.svg" alt="">
+                                <img src="svg/allbirds-logo.svg" alt="">
+                                <img src="svg/monzo-logo.svg" alt="">
+                                <img src="svg/hellofresh-logo.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -540,7 +528,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -556,7 +544,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -573,7 +561,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -589,7 +577,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -605,7 +593,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -622,7 +610,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -637,7 +625,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -653,7 +641,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -670,7 +658,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -685,7 +673,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -703,7 +691,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -718,7 +706,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -734,7 +722,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -751,7 +739,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -766,7 +754,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -783,7 +771,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -798,7 +786,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -814,7 +802,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -831,7 +819,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -846,7 +834,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -870,7 +858,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -888,7 +876,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -907,7 +895,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -925,7 +913,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -943,7 +931,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -962,7 +950,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -980,7 +968,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -998,7 +986,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1022,7 +1010,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1040,7 +1028,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1058,7 +1046,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1077,7 +1065,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1095,7 +1083,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1113,7 +1101,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1132,7 +1120,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1150,7 +1138,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1168,7 +1156,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1187,7 +1175,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1204,7 +1192,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1222,7 +1210,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1241,7 +1229,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1258,7 +1246,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1276,7 +1264,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1295,7 +1283,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1315,7 +1303,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1333,7 +1321,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1352,7 +1340,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1370,7 +1358,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1388,7 +1376,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/hr-perfomer-img.jpg" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1407,7 +1395,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1425,7 +1413,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end ">
-                                    <img src="tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/tree-hr-img.webp " alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1444,7 +1432,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 d-flex justify-content-end  ">
-                                    <img src="enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
+                                    <img src="img/enterprise-img-hr.webp" alt="" class="w-100 h-100 hr-card-img">
                                 </div>
                             </div>
                         </a>
@@ -1466,7 +1454,7 @@
                             </p>
 
                         </div>
-                        <div class=""><img src="tree-hr-img.webp" alt="" class="responsive-hr-card-img"></div>
+                        <div class=""><img src="img/tree-hr-img.webp" alt="" class="responsive-hr-card-img"></div>
                     </div>
 
                 </div>
@@ -1481,7 +1469,7 @@
                                     class="fa-solid fa-chevron-right"></i> </p>
 
                         </div>
-                        <div class=""><img src="hr-perfomer-img.jpg" alt="" class="responsive-hr-card-img"></div>
+                        <div class=""><img src="img/hr-perfomer-img.jpg" alt="" class="responsive-hr-card-img"></div>
                     </div>
                 </div>
                 <div class="col-12">
@@ -1495,7 +1483,7 @@
                             </p>
 
                         </div>
-                        <div class=""><img src="enterprise-img-hr.webp" alt="" class="responsive-hr-card-img"></div>
+                        <div class=""><img src="img/enterprise-img-hr.webp" alt="" class="responsive-hr-card-img"></div>
                     </div>
                 </div>
             </div>
@@ -1532,7 +1520,7 @@
                                 </p>
                             </div>
                             <div class="p-0 m-0 h-100">
-                                <img src="resource-card1-costumer-img.webp" alt=""
+                                <img src="img/resource-card1-costumer-img.webp" alt=""
                                     class="resource-card1-costumer-img w-100 h-100">
                             </div>
                         </div>
@@ -1550,7 +1538,7 @@
                                 </p>
                             </div>
                             <div class="p-0 m-0 h-100">
-                                <img src="resource-card2-costumer-img.webp" alt=""
+                                <img src="img/resource-card2-costumer-img.webp" alt=""
                                     class="resource-card1-costumer-img w-100 h-100 rounded-4">
                             </div>
                         </div>
@@ -1570,7 +1558,7 @@
                                     </p>
                                 </div>
                                 <div class="p-0 m-0">
-                                    <img src="resource-card3-costumer-img1.webp" alt=""
+                                    <img src="img/resource-card3-costumer-img1.webp" alt=""
                                         class="resource-card1-costumer-img w-100 h-100">
                                 </div>
                             </div>
@@ -1587,7 +1575,7 @@
                                     </p>
                                 </div>
                                 <div class="p-0 m-0">
-                                    <img src="resource-card3-costumer-img2.webp" alt=""
+                                    <img src="img/resource-card3-costumer-img2.webp" alt=""
                                         class="resource-card1-costumer-img w-100 h-100">
                                 </div>
                             </div>
@@ -1600,7 +1588,7 @@
 
 
     <div class="container-fluid position-relative dd p-0 py-5">
-        <img src="gradient-bg-img.svg" alt="" class="bg-gradient">
+        <img src="img/gradient-bg-img.svg" alt="" class="bg-gradient">
         <div class="container">
             <div class="row position-relative py-5">
 
@@ -1635,7 +1623,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="bussiness-img.jpg" alt="" class="bussiness-result-img">
+                            <img src="img/bussiness-img.jpg" alt="" class="bussiness-result-img">
                         </div>
                     </a>
                 </div>
@@ -1959,8 +1947,8 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="canva.js"></script>
-<script src="index.js"></script>
+<script src="js/canva.js"></script>
+<script src="js/index.js"></script>
 
 <script>
 
